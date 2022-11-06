@@ -30,6 +30,6 @@ class RequestWithdrawal extends Mailable
     public function build()
     {
         return $this->markdown('emails.withdraw_request')
-            ->subject('Trust Investment Cap');
+            ->subject('Trust Investments');
     }
 }

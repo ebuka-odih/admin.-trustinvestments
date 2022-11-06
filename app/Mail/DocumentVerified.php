@@ -30,7 +30,7 @@ class DocumentVerified extends Mailable
     public function build()
     {
         return $this->markdown('emails.document_verify')
-            ->from('noreply@trustinvestmentcap.com', "Trust Investment Cap")
-            ->subject('Trust Investment Cap');
+            ->from('noreply@trustinvestments.co', "Trust Investments")
+            ->subject('Trust Investments');
     }
 }
