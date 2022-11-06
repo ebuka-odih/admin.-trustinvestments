@@ -48,7 +48,8 @@
                 <div style="background: #fd961a; width: 100%; padding: 10px">
                     <center>
                         <a href="/">
-                            <img src="{{ asset('assets/images/logo.png') }}" width="200px">
+                            <h3>Trust Investment</h3>
+                            {{-- <img src="{{ asset('assets/images/logo.png') }}" width="200px"> --}}
                         </a>
                     </center>
                 </div>

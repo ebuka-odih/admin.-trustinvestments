@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Trust Investment Hub | Login</title>
+    <title>Trust Investment | Login</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->
@@ -48,7 +48,8 @@
                 <div style="background: #0B65C6; width: 100%; padding: 10px">
                     <center>
                         <a href="{{ route('index') }}">
-                            <img src="{{ asset('assets/images/logo.png') }}" width="200px">
+                            <h3>Trust Investment</h3>
+                            {{-- <img src="{{ asset('assets/images/logo.png') }}" width="200px"> --}}
                         </a>
                     </center>
                 </div>
