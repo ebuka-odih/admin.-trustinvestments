@@ -70,7 +70,7 @@
                             @foreach($documents as $item)
                             <tr role="row" class="even">
 
-                                <td>{{ $item->user->name }}<br>{{ $item->user->email }} </td>
+                                <td>{{ optional($item->user)->name }}<br>{{ optional($item->user)->email }} </td>
                                 <!--<td>-->
                                 <!--   <img src="" style="width:200px" alt=""> <br>  <a href="Documents.View?img_url=&doc_name=PASSPORT" class="btn btn-primary btn-sm btn-icon " style="margin: 3px"> VIEW</a>-->
                                 <!--</td> -->
@@ -83,7 +83,7 @@
 {{--                                    <a href="" class="btn btn-primary btn-sm btn-icon " style="margin: 3px"> VIEW</a>--}}
                                 </td>
                                 <td>
-                                    {!! $item->user->status() !!}
+                                    {!! optional($item->user)->status() !!}
                                 </td>
 
                                 <td>
